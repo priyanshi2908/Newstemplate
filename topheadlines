@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Headlines</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1b86bfdf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.headline {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-item1 {
+    color: #f0f0f0;
+    margin: auto;
+    padding: 10px;
+    background-color: #ba2121;
+    border-radius: 5px;
+    height: 100px;
+    width: 1000px;
+    transition: transform 0.2s ease-in-out;
+}
+.news-item2 {
+    color: #f0f0f0;
+    margin: auto;
+    padding: 10px;
+    background-color: #ba2121;
+    border-radius: 5px;
+    height: 100px;
+    width: 1000px;
+    transition: transform 0.2s ease-in-out;
+}
+.news-item3 {
+    color: #f0f0f0;
+    margin: auto;
+    padding: 10px;
+    background-color: #ba2121;
+    border-radius: 5px;
+    height: 100px;
+    width: 1000px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.news-item4 {
+    color: #f0f0f0;
+    margin: auto;
+    padding: 10px;
+    background-color: #ba2121;
+    border-radius: 5px;
+    height: 100px;
+    width: 1000px;
+    transition: transform 0.2s ease-in-out;
+}
+
+    .news-item1:hover {
+            transform: translateY(-10px);
+        }
+        .news-item2:hover {
+            transform: translateY(-10px);
+        }
+        .news-item3:hover {
+            transform: translateY(-10px);
+        }
+        .news-item4:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1 style="font-style: oblique ;font-family: Noto Sans; font-size: 50px;"><u>Top News Headlines</u></h1>
+        <ul class="news-list">
+            <li class="news-item1">
+                <div class="headline">Headline 1</div>
+                <p>Summary of the first news headline goes here.</p>
+            </li>
+            <br><br>
+            <li class="news-item4">
+                <div class="headline">Headline 2</div>
+                <p>Summary of the second news headline goes here.</p>
+            </li>
+            <br><br>
+            <li class="news-item2">
+                <div class="headline">Headline 3</div>
+                <p>Summary of the third news headline goes here.</p>
+            </li>
+            <br><br>
+            <li class="news-item3">
+                <div class="headline">Headline 4</div>
+                <p>Summary of the fourth news headline goes here.</p>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
